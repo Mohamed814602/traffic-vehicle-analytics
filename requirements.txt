@@ -1,0 +1,10 @@
+ultralytics==8.4.105
+torch==2.13.0
+supervision==0.29.1
+fastapi==0.140.0
+uvicorn==0.51.0
+python-multipart==0.0.32
+opencv-python-headless==4.13.0.92
+numpy==2.4.4
+pillow==12.1.1
+pytest==9.1.1

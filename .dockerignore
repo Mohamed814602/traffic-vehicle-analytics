@@ -1,0 +1,10 @@
+data/
+outputs/
+runs/
+notebooks/
+tests/
+.git/
+.pytest_cache/
+__pycache__/
+*.pyc
+.venv/

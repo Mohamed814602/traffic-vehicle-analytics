@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# Model weights and training runs — large, don't belong in git
+*.pt
+runs/
+
+# Dataset — download separately, see data/README.md
+data/*
+!data/README.md
+
+# Ultralytics auto-downloads this sample dataset when running the
+# tests/ integration tests locally (test_weighted_trainer_runs_real_
+# training_end_to_end, etc.) -- not part of the actual project
+datasets/
+
+# Generated outputs
+outputs/
