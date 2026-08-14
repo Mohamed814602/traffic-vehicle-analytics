@@ -14,8 +14,9 @@ Calibration section for the honest caveats on speed accuracy).*
 
 ## Final model
 
-**Chosen configuration: YOLO11s @ 960px, trained on oversampled + undersampled
-+ rare-class-augmented data.** Checkpoint from epoch 7 (best.pt):
+**Chosen configuration: YOLO11s @ 960px, trained on oversampled + undersampled + rare-class-augmented data.**
+
+Checkpoint from epoch 7 (best.pt):
 
 | Precision | Recall | mAP50 | mAP50-95 |
 |---|---|---|---|
